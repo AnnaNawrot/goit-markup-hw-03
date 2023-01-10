@@ -61,6 +61,21 @@ img {
   color: #2196f3;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.header-contacts {
+  display: flex;
+}
+
+.index-header {
+  display: flex;
+}
+
 .contact-link {
   color: #757575;
   text-decoration: none;
@@ -78,9 +93,9 @@ img {
 
 .filter {
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
-  padding: 8px;
+  gap: 8px;
 }
 
 button {
@@ -90,7 +105,6 @@ button {
   line-height: 1, 6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
   border-style: none;
   background: #f5f4fa;
   border-radius: 4px;
@@ -111,8 +125,17 @@ button {
   cursor: pointer;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100%-2 * 30px)) / 3;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
 .project-card {
   width: 370;
+  padding-left: 0;
 }
 
 .project-description {
@@ -217,14 +240,14 @@ address {
   text-align: center;
 }
 
-.fig {
+/* .fig {
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 .our-team {
   background: #e5e5e5;
@@ -246,13 +269,7 @@ address {
 .index-header {
   border-bottom: 1px solid #ececec;
 }
-.navigation {
-  display: flex;
-  align-items: center;
-}
-.header-contacts {
-  display: flex;
-}
+
 .advantages-list {
   display: flex;
 }
