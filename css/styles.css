@@ -76,6 +76,13 @@ img {
   stroke: #2196f3;
 }
 
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 8px;
+}
+
 button {
   font-family: "Roboto";
   font-weight: 500;
@@ -166,9 +173,10 @@ address {
   color: #2196f3;
 }
 
-footer {
+.footer {
   background-color: #2f303a;
-  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .hero {
