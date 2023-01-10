@@ -27,11 +27,13 @@ img {
   width: 1200px;
   border: 1px dotted grey;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  /* padding: 94px 0; */
 }
 
 .pb {
@@ -72,10 +74,6 @@ img {
   display: flex;
 }
 
-.index-header {
-  display: flex;
-}
-
 .contact-link {
   color: #757575;
   text-decoration: none;
@@ -96,6 +94,19 @@ img {
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+
+.filter-button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-style: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
 }
 
 button {
@@ -186,13 +197,13 @@ address {
   color: #ffffff;
 }
 
-.bottom-contact-link {
+.footer-contact-link {
   color: #757575;
   text-decoration: none;
 }
 
-.bottom-contact-link:hover,
-.bottom-contact-link:focus {
+.footer-contact-link:hover,
+.footer-contact-link:focus {
   color: #2196f3;
 }
 
@@ -249,8 +260,16 @@ address {
   color: #ffffff;
 } */
 
+/* 3 photos in section Czym się zajmujemy */
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
 .our-team {
   background: #e5e5e5;
+  display: flex;
+  justify-content: center;
 }
 .name {
   font-weight: 500;
@@ -266,7 +285,7 @@ address {
   color: #757575;
 }
 
-.index-header {
+.page-header {
   border-bottom: 1px solid #ececec;
 }
 

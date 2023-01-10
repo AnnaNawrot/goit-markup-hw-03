@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- page header -->
-    <header class="index-header">
+    <header class="page-header">
       <div class="container">
         <a class="logo" href="./index.html"
           >Web<span class="logo-studio">Studio</span></a
@@ -50,11 +50,15 @@
         <!-- filters -->
         <div class="container">
           <ul class="filter">
-            <li><button type="button">All</button></li>
-            <li><button type="button">Web-sites</button></li>
-            <li><button type="button">Apps</button></li>
-            <li><button type="button">Design</button></li>
-            <li><button type="button">Marketing</button></li>
+            <li><button type="button" class="filter-button">All</button></li>
+            <li>
+              <button type="button" class="filter-button">Web-sites</button>
+            </li>
+            <li><button type="button" class="filter-button">Apps</button></li>
+            <li><button type="button" class="filter-button">Design</button></li>
+            <li>
+              <button type="button" class="filter-button">Marketing</button>
+            </li>
           </ul>
         </div>
         <!--  All Projects -->
@@ -202,18 +206,24 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="container">
+        <div class="footer-logo">
           <a class="logo" href="./index.html"
             >Web<span class="logo-studio-bottom">Studio</span></a
           >
         </div>
-        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-        <a class="bottom-contact-link" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <a class="bottom-contact-link" href="tel:+48111111111"
-          >+48 111 111 111</a
-        >
+        <ul class="footer-contacts">
+          <li><address>m. Warszawa, Aleje Jerozolimskie 21</address></li>
+          <li>
+            <a class="footer-contact-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="footer-contact-link" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
