@@ -19,9 +19,9 @@ ul {
   padding: 0;
 }
 
-img {
+/* img {
   display: block;
-}
+} */
 
 .container {
   width: 1200px;
@@ -266,16 +266,37 @@ address {
   justify-content: space-between;
 }
 
-.our-team {
-  background: #e5e5e5;
+.container .our-team {
+  max-width: 1200px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
+.our-team {
+  background-color: #f5f4fa;
+}
+.team-cards {
+  display: flex;
+  justify-content: center;
+  row-gap: 30px;
+}
+.team-card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-description {
+  padding: 30px 0;
+  background: white;
+}
+
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 18;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .job-position {
@@ -283,6 +304,7 @@ address {
   line-height: 1, 18;
   letter-spacing: 0.03em;
   color: #757575;
+  text-align: center;
 }
 
 .page-header {
