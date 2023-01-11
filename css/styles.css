@@ -41,7 +41,7 @@ img {
 .page-header-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   /* height:80px; */
 }
 .page-header {
@@ -67,7 +67,7 @@ img {
   justify-content: space-between;
   width: 254px;
   margin-left: 93px;
-  padding: 0;
+  margin-right: 364px;
 }
 
 .nav-item {
@@ -85,14 +85,187 @@ img {
   font-size: 14px;
   line-height: 1, 1;
   letter-spacing: 0.02em;
-  padding-right: 50px;
+  /* padding-left: 50px; */
 }
 
 .contact-link:hover,
 .contact-link:focus {
   color: #2196f3;
-  stroke: #2196f3;
 }
+
+.hero-container {
+  background: #2f303a;
+  text-align: center;
+  width: 100%;
+  /* height: 600px; */
+}
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 200px;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 4px;
+  margin-bottom: 200px;
+}
+
+.advantages-list {
+  display: flex;
+}
+.advantages-item {
+  width: 270px;
+  margin-right: 30px;
+}
+.advantages-item:last-child {
+  margin-right: 0px;
+}
+
+.advantages {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  font-size: 14px;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  color: #757575;
+  max-width: 270px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* 3 photos in section Czym się zajmujemy */
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-card-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-description {
+  padding: 30px 0;
+  background: white;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.job-position {
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: center;
+}
+
+.figcaption {
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 2;
+  color: #2196f3;
+  text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 2;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 7;
+  color: white;
+  margin-top: 20px;
+}
+
+.footer-contacts-item {
+  margin-bottom: 9px;
+}
+
+.footer-contact-link {
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: #2196f3;
+}
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Portfolio */
 
 .filter {
   display: flex;
@@ -164,13 +337,6 @@ button {
   width: 370;
 }
 
-/* .project-card:focus,
-.project-card:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-  width: 370px;
-} */
-
 .project-title {
   font-weight: 700;
   font-size: 18px;
@@ -185,183 +351,4 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
   padding: 0 24px 20px 24px;
-}
-
-.address {
-  font-family: "Roboto";
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1, 7;
-  color: white;
-  margin-top: 20px;
-}
-
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 2;
-  color: #2196f3;
-  text-decoration: none;
-}
-.logo-studio {
-  color: #000000;
-}
-
-.footer-logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 2;
-  color: #2196f3;
-  text-decoration: none;
-}
-
-.logo-studio-footer {
-  color: #ffffff;
-}
-
-.footer-contacts-item {
-  margin-bottom: 9px;
-}
-/* .footer-contacts-item:last-child {
-  margin-bottom: 0px;
-} */
-
-.footer-contact-link {
-  color: #757575;
-  text-decoration: none;
-}
-
-.footer-contact-link:hover,
-.footer-contact-link:focus {
-  color: #2196f3;
-}
-
-.footer {
-  background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.hero-container {
-  background: #2f303a;
-  text-align: center;
-  width: 100%;
-  height: 600px;
-}
-.hero-header {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1, 36;
-  letter-spacing: 0.06em;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding-top: 200px;
-  margin-bottom: 30px;
-}
-
-.hero-button {
-  background: #2196f3;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  cursor: pointer;
-  border-style: none;
-  border-radius: 4px;
-  margin-bottom: 200px;
-}
-
-.advantages-list {
-  display: flex;
-}
-.advantages-item {
-  margin-right: 30px;
-}
-
-.advantages {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1, 1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.advantages-description {
-  font-size: 14px;
-  line-height: 1, 7;
-  letter-spacing: 0.03em;
-  color: #757575;
-  max-width: 270px;
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 16;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-/* 3 photos in section Czym się zajmujemy */
-.gallery {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.container .container-our-team {
-  max-width: 1200px;
-  display: flex;
-}
-.our-team {
-  background-color: #f5f4fa;
-}
-.team-cards {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.team-card {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.card-description {
-  padding: 30px 0;
-  background: white;
-  border-radius: 0px 0px 4px 4px;
-}
-
-.name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 18;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.job-position {
-  font-size: 16px;
-  line-height: 1, 18;
-  letter-spacing: 0.03em;
-  color: #757575;
-  text-align: center;
-}
-
-.advantages-list {
-  display: flex;
-}
-.workers-list {
-  display: flex;
-}
-.figcaption {
-  background-color: #ffffff;
 }
