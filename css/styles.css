@@ -1,28 +1,18 @@
+/* general */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   text-decoration: none;
-  margin: 0;
-  padding: 0;
 }
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 img {
@@ -31,10 +21,9 @@ img {
 
 .container {
   width: 1200px;
-  border: 1px dotted grey;
   margin: 0 auto;
-  /* margin: 0 215px; */
-  justify-content: center;
+  /* pomocnicze */
+  border: 1px dotted grey;
 }
 
 .section {
@@ -43,34 +32,20 @@ img {
   /* padding: 94px 0; */
 }
 
-.pb {
+/* .pb {
   padding-bottom: 0px;
-}
+} */
+
+/* header + footer*/
 
 .page-header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  /* height:80px; */
 }
-
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 2;
-  color: #2196f3;
-  text-decoration: none;
-  margin-top: 24px;
-  margin-bottom: 25px;
-}
-
-.footer-logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 2;
-  color: #2196f3;
-  text-decoration: none;
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
 
 .menu-link {
@@ -91,6 +66,8 @@ img {
   display: flex;
   justify-content: space-between;
   width: 254px;
+  margin-left: 93px;
+  padding: 0;
 }
 
 .nav-item {
@@ -210,19 +187,34 @@ button {
   padding: 0 24px 20px 24px;
 }
 
-address {
+.address {
   font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   line-height: 1, 7;
   color: white;
+  margin-top: 20px;
 }
 
 .logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 2;
   color: #2196f3;
+  text-decoration: none;
 }
 .logo-studio {
   color: #000000;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 2;
+  color: #2196f3;
+  text-decoration: none;
 }
 
 .logo-studio-footer {
@@ -235,10 +227,6 @@ address {
 /* .footer-contacts-item:last-child {
   margin-bottom: 0px;
 } */
-
-.address {
-  margin-top: 20px;
-}
 
 .footer-contact-link {
   color: #757575;
@@ -366,10 +354,6 @@ address {
   letter-spacing: 0.03em;
   color: #757575;
   text-align: center;
-}
-
-.page-header {
-  border-bottom: 1px solid #ececec;
 }
 
 .advantages-list {
