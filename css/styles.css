@@ -174,7 +174,9 @@ button {
 
 .project-card {
   width: 370;
-  border: 2px dotted green;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  /* border: 2px dotted green; */
   /* flex-basis: calc((1200px-2 * 30px) / 3); */
 }
 
@@ -185,19 +187,19 @@ button {
   width: 370;
 }
 
-.project-card:focus,
+/* .project-card:focus,
 .project-card:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   width: 370px;
-}
+} */
 
 .project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  padding: 20px 24px 4px 24px;
 }
 
 .project-type {
@@ -205,6 +207,7 @@ button {
   line-height: 1, 9;
   letter-spacing: 0.03em;
   color: #757575;
+  padding: 0 24px 20px 24px;
 }
 
 address {
