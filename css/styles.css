@@ -27,6 +27,7 @@ ul {
   width: 1200px;
   border: 1px dotted grey;
   margin: 0 auto;
+  /* margin: 0 215px; */
   justify-content: center;
 }
 
@@ -40,7 +41,24 @@ ul {
   padding-bottom: 0px;
 }
 
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 2;
+  color: #2196f3;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.footer-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -65,9 +83,13 @@ ul {
 
 .navigation {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 8px;
+  justify-content: space-between;
+  width: 254px;
+  /* gap: 8px; */
+}
+
+.nav-item {
+  display: flex;
 }
 
 .header-contacts {
@@ -81,6 +103,7 @@ ul {
   font-size: 14px;
   line-height: 1, 1;
   letter-spacing: 0.02em;
+  padding-right: 50px;
 }
 
 .contact-link:hover,
