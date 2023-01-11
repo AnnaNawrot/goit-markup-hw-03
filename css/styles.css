@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --brand-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
+  --primary-txt-color: #212121;
+  --secondary-txt-color: #757575;
+  --third-txt-color: #ffffff;
+  /* --font-family:"Roboto", sans-serif; */
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -54,12 +64,12 @@ img {
   line-height: 1, 1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-txt-color);
 }
 
 .nav-link:focus,
 .nav-link:hover {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .header-contacts {
@@ -67,7 +77,7 @@ img {
 }
 
 .contact-link {
-  color: #757575;
+  color: var(--secondary-txt-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -79,13 +89,13 @@ img {
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 /* Main Page Studio */
 
 .hero-container {
-  background: #2f303a;
+  background: var(--secondary-bg-color);
   text-align: center;
   width: 100%;
   /* height: 600px; */
@@ -97,19 +107,19 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--third-txt-color);
   padding-top: 200px;
   margin-bottom: 30px;
 }
 
 .hero-button {
-  background: #2196f3;
+  background: var(--brand-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--third-txt-color);
   cursor: pointer;
   border-style: none;
   border-radius: 4px;
@@ -140,7 +150,7 @@ img {
   font-size: 14px;
   line-height: 1, 7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-txt-color);
   max-width: 270px;
 }
 
@@ -160,7 +170,7 @@ img {
 }
 
 .our-team {
-  background-color: #f5f4fa;
+  background-color: var(--third-bg-color);
 }
 .team-cards {
   display: flex;
@@ -175,7 +185,7 @@ img {
 
 .card-description {
   padding: 30px 0;
-  background: white;
+  background: var(--third-txt-color);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -192,12 +202,12 @@ img {
   font-size: 16px;
   line-height: 1, 18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-txt-color);
   text-align: center;
 }
 
 .figcaption {
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
 }
 
 .logo {
@@ -205,7 +215,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 2;
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -220,12 +230,12 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 2;
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 
 .logo-studio-footer {
-  color: #ffffff;
+  color: var(--third-txt-color);
 }
 
 .address {
@@ -233,7 +243,7 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: 1, 7;
-  color: white;
+  color: var(--third-txt-color);
   margin-top: 20px;
 }
 
@@ -242,17 +252,17 @@ img {
 }
 
 .footer-contact-link {
-  color: #757575;
+  color: var(--secondary-txt-color);
   text-decoration: none;
 }
 
 .footer-contact-link:hover,
 .footer-contact-link:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -274,7 +284,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   border-style: none;
-  background: #f5f4fa;
+  background: var(--third-bg-color);
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
 }
@@ -287,18 +297,18 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   border-style: none;
-  background: #f5f4fa;
+  background: var(--third-bg-color);
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
 }
 
 button:focus,
 button:hover {
-  background: #2196f3;
+  background: var(--brand-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: white;
+  color: var(--third-txt-color);
   border-style: none;
 }
 
@@ -340,6 +350,6 @@ button {
   font-size: 16px;
   line-height: 1, 9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-txt-color);
   padding: 0 24px 20px 24px;
 }
