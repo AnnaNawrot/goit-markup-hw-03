@@ -197,6 +197,17 @@ address {
   color: #ffffff;
 }
 
+.footer-contacts-item {
+  margin-bottom: 9px;
+}
+.footer-contacts-item:last-child {
+  margin-bottom: 0px;
+}
+
+.address {
+  margin-top: 20px;
+}
+
 .footer-contact-link {
   color: #757575;
   text-decoration: none;
